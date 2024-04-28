@@ -1,4 +1,6 @@
-driver = ['Kwebena Aygemang', 'Donovan King', 'Gary Saxon','Yrim Fejullahu','Danilo Da Santo','Hathem Jasem','Paul Robert','Jose De Chunya','Paranamanage Gunasekara','Sandro Analdo','Nazim Uddin','Manjeet Singh','Laurynus Goukas','Chezary Imbierowicz','William Day','Aston Bugeja','Michael Jackson','Tony Dunen','Margaret Thomas','Miguel Joao','Rrustem Statovci','Baraka Sesay','Sammy Dadson','Bessim Fejzullahu','Joseph Muniz','John Christy','Mario Du Traipires','Danny Mills','Paul Maloney','Joao Ferrerira','Jefferson Olveira','Rob Rose','Delsio Seixas','Bashkim Fejullahu','St Clair Barlett','Alek Aleksiev','Joao Santos', 'Dragos Getea','Pedro Alves','Rafael Moraes','Jonathan Green','Jose Franco','Beto Gasper','Anthony Brace','Hitalo Silva','Sorin Micu','Glen Noller','Marcelo Andrade','Lukaz Lukosius','Jose Junior','Juliano Pavarine']
+import string
+
+driver = ['Kwebena Aygemang', 'Donovan King', 'Gary Saxon','Yrim Fejzullahu','Danilo Da Santos','Hathem Jasem','Paul Robert','Jose De Chunya','Paranamanage Gunasekara','Sandro Analdo','Nazim Uddin','Manjeet Singh','Laurynus Goukas','Chezary Imberowicz','William Day','Aston Bugjea','Michael Jackson','Tony Dunen','Margaret Thomas','Miguel Joao','Rrustem Statovci','Baraka Sesay','Sammy Dadson','Bessim Fejzullahu','Joseph Muniz','John Christy','Mario Phillipe Du Trapires','Danny Mills','Paul Maloney','Joao Ferrerira','Jefferson Olveira','Rob Rose','Delsio Seixas','Bashkim Fejullahu','St Clair Barlett','Alek Alexsiev','Joao Santos', 'Dragos Getea','Pedro Alves','Rafael Moraes','Jonathan Green','Jose Franco','Beto Gasper','Anthony Brace','Hitalo Silva','Sorin Micu','Glen Noller','Marcelo Andrade','Lukaz Lukosius','Jose Junior','Juliano Pavarine','Almirio Pamente','Raniere Queiroz','Carlos Teixeira','Rikari Kele']
 
 round = {'101': {'name': 'Sorin Micu', 'route': 101, 'contact': '07470 580553', 'company': 'Jake Webster','postcode': 'E16 2, E16 3'},
          '102': {'name': 'Sammy Dadson', 'route': 102, 'contact': '07957 115703', 'company': 'Jake Webster','postcode': 'E16 1, E16 4'},
@@ -23,7 +25,7 @@ round = {'101': {'name': 'Sorin Micu', 'route': 101, 'contact': '07470 580553', 
          '143': {'name': 'Manjeet Singh', 'route': 143, 'contact': '07958 048370', 'company': 'Baraka Sesay','postcode': 'IG4 5, IG2 6, IG5 0, IG6 1'},
          '144': {'name': 'Sandro Analdo', 'route': 144, 'contact': '07421 995389', 'company': 'Baraka Sesay','postcode': 'E18 1, E18 2, IG8 8, IG8 7'},
          '145': {'name': 'Delcio Seixas', 'route': 145, 'contact': '07599 754659', 'company': 'Baraka Sesay','postcode': 'IG7 4, IG6 2, IG6 3, IG7 6'},
-         '146': {'name': 'Jose Franco', 'route': 146, 'contact': '07459 643037', 'company': 'Baraka Sesay','postcode': 'IG9 5, IG9 6, IG8 0, IG8 9'},
+         '146': {'name': 'Rikari Kele', 'route': 146, 'contact': '07380 961280', 'company': 'Baraka Sesay','postcode': 'IG9 5, IG9 6, IG8 0, IG8 9'},
          '161': {'name': 'Danilo Da Santos', 'route': 161, 'contact': '07300 816432', 'company': 'Bessim Fejzullahu','postcode': 'IG11 0'},
          '162': {'name': 'Yrim Fejzullahu', 'route': 162, 'contact': '07949 642904', 'company': 'Bessim Fejzullahu','postcode': 'IG11 7, IG11 8, IG11 9'},
          '163': {'name': 'Miguel Joao', 'route': 163, 'contact': '07466 491855', 'company': 'Bessim Fejzullahu','postcode': 'E13 0, E13 8, E13 9, E6 1'},
@@ -39,7 +41,8 @@ round = {'101': {'name': 'Sorin Micu', 'route': 101, 'contact': '07470 580553', 
          '203': {'name': 'John Christy', 'route': 203, 'contact': '07960 685175', 'company': 'Mick Hegarty','postcode': 'RM4 1, RM5 2, RM5 3'},
          '204': {'name': 'Aston Bugjea', 'route': 204, 'contact': '07535 412519', 'company': 'Mick Hegarty','postcode': 'RM7 0, RM7 7, RM7 8, RM7 9'},
          '205': {'name': 'Paul Maloney', 'route': 205, 'contact': '07577 229934', 'company': 'Mick Hegarty','postcode': 'RM10 7, RM10 8, RM10 9'},
-         '206': {'name': 'Ian Miller', 'route': 206, 'contact': '07790 327305', 'company': 'Mick Hegarty','postcode': 'RM9 6, RM13 8'},
+         '206': {'name': 'Danny Mills', 'route': 206, 'contact': '07939 611389', 'company': 'Mick Hegarty','postcode': 'RM9 6, RM13 8'},
+         '208': {'name': 'Ian Miller', 'route': 208, 'contact': '07790 327305', 'company': 'Mick Hegarty','postcode': 'BULK ROUTE'},
          '207': {'name': 'Alek Alexsiev', 'route': 207, 'contact': '07889 419518', 'company': 'Mick Hegarty','postcode': 'RM8 2, RM8 3, RM9 4, RM9 5'},
          '301': {'name': 'John Abraham', 'route': 301, 'contact': '07930 245848', 'company': 'Mick Hegarty','postcode': 'BULK ROUTE'},
          '302': {'name': 'St Clair Bartlett', 'route': 302, 'contact': '07947 664082', 'company': 'Mick Hegarty','postcode': 'BULK ROUTE'},
@@ -56,203 +59,103 @@ round = {'101': {'name': 'Sorin Micu', 'route': 101, 'contact': '07470 580553', 
         
          }
 
-name = []
-boss = []
-route = []
-feedback = []
-score = []
+ctc = ['101','102','103','104','105','106','107','108','109','110','111','112','113','114','115']
+hb = ['121','122','123','124','125','126','127','128''129','130','442']
+barakasat = ['141','142','143','144','145','146','147','148','149','150']
+bbb = ['161','162','163','164','165','166','167','168','169','170','171','172','173','174','175']
+fedex = ['201','202','203','204','205','206','207','208','209','210','301','302','303','304','305','306','307','308','309','310','311','312','313','314','315','316','317','318','319','320','380']
+
+name = ''
+boss = ''
+route = ''
+feedback = ''
+score = ''
+address = ''
+
+def message():
+    #Boss e-mail
+    print()
+    print('Boss Email')
+    print()
+    print('Hi',boss,',')
+    print()
+    print(f'Good feedback was received on {route}, {name}. Please see the feedback below:')
+    print()
+    print(f'Feedback: {feedback}')
+    print()
+    print(f'Address: {address}')
+    print()
+    print(f'Customer satisfaction score: {score}/10')
+    print()
+    print('______________________________________________________________________________________________')
+    print()
+
+    #Driver's message
+    print('Driver message:')
+    print()
+    print(f'Good Work!!! {name}👏, your have received a positive feedback on a delivery. Please read the feedback below:')
+    print()
+    print(f'Feedback: {feedback}')
+    print()
+    print(f'Address: {address}')
+    print()
+    print(f'Customer satisfaction score: {score}/10')
+    print()
 
 while True:
-    
+
     rno = input('What is the round number? ')
 
     if rno in round:
-        feed = input('What is the feedback? ')
-        scor = input('What is his/her overall score? ')
-        drive = round[rno]['name']
-        bossname = round[rno]['company']
-        routenumber = round[rno]['route']
+        feedback = input('What is the feedback? ')
+        address = input('What is the address? ')
+        score = input('What is the driver score? ')
+        name = round[rno]['name']
+        boss = round[rno]['company']
+        route = round[rno]['route']
 
-        name.append(drive)
-        boss.append(bossname)
-        route.append(routenumber)
-        feedback.append(feed)
-        score.append(scor)
-
-        print(' ')
-        print('Driver Name: ',name[0])
-        print('Boss Name: ',boss[0])
-        print(' ')
+        print()
+        print(f'Driver Name: {name}')
+        print(f'Boss Name: {boss}')
+        print()
 
         correction = input('Is this correct? ')
 
         if correction == 's':
-            pass
+            message()
         elif correction == 'n':
-             name.pop(0)
-             boss.pop(0)
-             #route.pop(0)
-             #feedback.pop(0)
-             #score.pop(0)
+            name = input('What is the driver name? ')
+            name = string.capwords(name)
 
-             dname = input('What is the driver name? ')
-             bname = input('What is his/her boss name? ')
-             #rnumber = input('What is the round number? ')
-             #feed = input('What is the feedback? ')
-             #scor = input('What is his/her overall score? ')
-
-             name.append(dname)
-             boss.append(bname)
-             #route.append(rnumber)
-             #feedback.append(feed)
-             #score.append(scor)
-
-             print('Boss Email')
-             print(' ')
-             print('Hi ',boss[0].capitalize(),',')
-             print(' ')
-             print('Good feedback was received on route ',route[0], name[0].capitalize(),'. Please see the feedback below:')
-             print(' ')
-             print('Feedback: ',feedback[0])
-             print(' ')
-             print('Customer satisfaction score: ',score[0],'/10')
-             print(' ')
-             print(' ')
-             print(' ')
-             print(' ')
-
-            #driver message print   
-             print('Drivers message')
-             print('Good Work! ', name[0].capitalize(),'👏 ', ' you received a positive feedback from the customer on this delivery. Please read the customer feedback below.')
-             print(' ')
-             print('Feedback: ',feedback[0])
-             print(' ')
-             print('Customer satisfaction score: ',score[0],'/10')
-             print(' ')
-             print(' ')
-             print(' ')
-             print(' ')
-
-             name.pop(0)
-             boss.pop(0)
-             route.pop(0)
-             feedback.pop(0)
-             score.pop(0)
-        else:
-            print('Your entry is invalid. Please type [y/n]')
-            name.pop(0)
-            boss.pop(0)
-            route.pop(0)
-            feedback.pop(0)
-            score.pop(0)
-        
-
-
-    elif rno == 'end':
-        print('Boss Email')
-        print(' ')
-        print('Hi ',boss[0],',')
-        print(' ')
-        print('Good feedback was received on route ',route[0], name[0],'. Please see the feedback below:')
-        print(' ')
-        print('Feedback: ',feedback[0])
-        print(' ')
-        print('Customer satisfaction score: ',score[0],'/10')
-        print(' ')
-        print(' ')
-        print(' ')
-        print(' ')
-
-        #driver message print   
-        print('Drivers message')
-        print(' ')
-        print('Good Work! ', name[0],'👏 ', ' you received a positive feedback from the customer on this delivery. Please read the customer feedback below.')
-        print(' ')
-        print('Feedback: ',feedback[0])
-        print(' ')
-        print('Customer satisfaction score: ',score[0],'/10')
-        print(' ')
-        print(' ')
-        print(' ')
-        print(' ')
-
-        name.pop(0)
-        boss.pop(0)
-        route.pop(0)
-        feedback.pop(0)
-        score.pop(0)
+            if rno in ctc:
+                boss = 'Jake Webster'
+                message()
+            elif rno in hb:
+                boss = 'Henrique Mariani'
+                message()
+            elif rno in barakasat:
+                boss = 'Baraka Sesay'
+                message()
+            elif rno in bbb:
+                boss = 'Bessim Fejzullahu'
+                message()
+            elif rno in fedex:
+                boss = 'Mick Hegarty'
+                message()
+            else:
+                boss = input('What is the boss name? ')
+                message()
 
     elif rno == 'k':
         break
-    
 
     elif rno not in round:
-        print('The round number is does not exist')
-
-        alert = input('Are you sure this is the right round number? ')
-
-        if alert == 's':
-            dname = input('What is the driver name? ')
-            bname = input('What is his/her boss name? ')
-            rnumber = input('What is the round number? ')
-            feed = input('What is the feedback? ')
-            scor = input('What is his/her overall score? ')
-
-            name.append(dname)
-            boss.append(bname)
-            route.append(rnumber)
-            feedback.append(feed)
-            score.append(scor)
-
-            print('Boss Email')
-            print(' ')
-            print('Hi ',boss[0].capitalize(),',')
-            print(' ')
-            print('Good feedback was received on route ',route[0], name[0].capitalize(),'. Please see the feedback below:')
-            print(' ')
-            print('Feedback: ',feedback[0])
-            print(' ')
-            print('Customer satisfaction score: ',score[0],'/10')
-            print(' ')
-            print(' ')
-            print(' ')
-            print(' ')
-
-            #driver message print   
-            print('Drivers message')
-            print('Good Work! ', name[0].capitalize(),'👏 ', ' you received a positive feedback from the customer on this delivery. Please read the customer feedback below.')
-            print(' ')
-            print('Feedback: ',feedback[0])
-            print(' ')
-            print('Customer satisfaction score: ',score[0],'/10')
-            print(' ')
-            print(' ')
-            print(' ')
-            print(' ')
-
-            name.pop(0)
-            boss.pop(0)
-            route.pop(0)
-            feedback.pop(0)
-            score.pop(0)
-
-        else:
-            print('Please enter the valid round number')
-            pass
-
-    
-
-    elif rno == 'k':
-        break
-        
-    else:
-        print('Your entry is invalid')
-        print(' ')
-        print('Please type [k] to kill OR [end] to print values')
-
-
-    if drive in driver:
-        na = driver.index(drive)
-        print('The driver name is in index',na)
-        print()
-        print()
+        name = input('What is the driver name? ')
+        name = string.capwords(name)
+        boss = input('What is the boss name? ')
+        boss = string.capwords(boss)
+        route = rno
+        address = input('What is the address? ')
+        feedback = input('What is the feedback? ')
+        score = input('What is the score? ')
+        message()
