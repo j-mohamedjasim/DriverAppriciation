@@ -159,3 +159,14 @@ while True:
         feedback = input('What is the feedback? ')
         score = input('What is the score? ')
         message()
+        
+    if name in driver:
+        dname = driver.index(name)
+        print()
+        print(f'{name} is in index {dname}')
+        print()
+    else:
+        print()
+        print('The driver name is not in the driver list')
+        print()
+        
